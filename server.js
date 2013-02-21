@@ -18,3 +18,4 @@ app.configure(function(){
 });
 
 app.listen(port);
+console.log("Express server listening on port " + app.get('port'));
